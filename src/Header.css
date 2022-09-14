@@ -1,0 +1,65 @@
+.Header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid whitesmoke;
+  height: 50px;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+
+.header__left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header__left > img {
+  object-fit: contain;
+  height: 40px;
+  margin-left: 5px;
+}
+
+.header__middle {
+  display: flex;
+  align-items: center;
+  flex: 0.7;
+  background-color: whitesmoke;
+  padding: 10;
+  border-radius: 5px;
+}
+
+.header__middle > .MuiSvgIcon-root {
+    color: #5f6368;
+  padding: 0 15px;
+}
+
+
+.header__middle > input {
+  border: none;
+  width: 100%;
+  padding: 10px;
+  background-color: transparent;
+  outline: none;
+  font-size: medium;
+}
+
+.header__right > .MuiSvgIcon-root {
+  color: grey;
+}
+
+.header__right {
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.header__right > .MuiSvgIcon-root {
+    color: #5f6368;
+    padding: 0 5px;
+}
+
+.header__right > .MuiAvatar-root{
+    margin-left: 10px;
+    cursor: pointer;
+}

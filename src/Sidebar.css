@@ -1,0 +1,21 @@
+.Sidebar{
+    display: flex;
+    flex-direction: column;
+    max-width: 15%;
+    padding-top: 5px;
+    max-width: 250px;
+    padding-right: 20px;
+    flex: 0.3;
+}
+
+.sidebar__compose{
+    color: black !important;
+    margin-top: 15px !important;
+    margin-left: 10px !important;
+    margin-bottom: 15px !important;
+    text-transform: capitalize !important;
+    background-color: #C2E7FF !important;
+    padding: 15px 25px !important;
+    border-radius: 15px !important;
+    max-width: 140px !important;
+}

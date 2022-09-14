@@ -1,0 +1,29 @@
+.Section{
+    display: flex;
+    align-items: center;
+    max-width: 600px;
+    flex: 1;
+    color: #6E6368;
+    padding: 15px 0px;
+    cursor: pointer;
+}
+
+.Section > .MuiSvgIcon-root {
+    padding-left: 10px;
+}
+
+.Section:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.section__selected{
+    border-bottom: 3px solid #0B57D0;
+}
+
+.section__title{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0 20px;
+    flex: 1;
+}
